@@ -2,9 +2,11 @@
 
 This is an end-to-end TFX pipeline which uses Local Dag runner as the orchestrator which is TFX's in-built orchestrator
 
-# Data
+# Data and Objective
 The dataset has been imported from the below Kaggle link:
 https://www.kaggle.com/rmisra/news-category-dataset
+
+The json data 'News_Category_Dataset_v2.json' can be downloaded from the above link and placed in 'downldata' folder in the working directory
 
 TL;DR - I am trying to classify news articles using just the headlines in categories like CRIME, ENTERTAINMENT, SPORTS etc.
 
