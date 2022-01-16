@@ -1,6 +1,6 @@
-# News category classification
+# News category classification using TFX pipeline
 
-This is an end-to-end TFX pipeline which uses Local Dag runner as the orchestrator which is TFX's in-built orchestrator
+This is an end-to-end TFX pipeline which uses LocalDagRunner as the orchestrator which is TFX's own orchestrator
 
 # Data and Objective
 The dataset has been imported from the below Kaggle link:
