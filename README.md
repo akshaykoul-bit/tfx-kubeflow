@@ -8,7 +8,7 @@ https://www.kaggle.com/rmisra/news-category-dataset
 
 The json data 'News_Category_Dataset_v2.json' can be downloaded from the above link and placed in 'downldata' folder in the working directory
 
-TL;DR - I am trying to classify news articles using just the headlines in categories like CRIME, ENTERTAINMENT, SPORTS etc., more so, creating and end-to-end pipeline flow with TFX.
+TL;DR - I am trying to classify news articles using just the headlines in categories like CRIME, ENTERTAINMENT, SPORTS etc., more so, creating an end-to-end pipeline flow with TFX.
 
 # Pipeline flow
 The data is ingested using CSVExampleGen, which is then fed to StatisticsGen which learns some stats from the data, followed by SchemaGen which learns the schema and saves it in the metadata store which can later be used to validate new incoming data from prediction requests using ExampleValidator. 
