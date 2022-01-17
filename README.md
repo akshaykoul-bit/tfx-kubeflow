@@ -3,7 +3,7 @@
 This is an end-to-end TFX pipeline which uses LocalDagRunner as the orchestrator which is TFX's own orchestrator
 
 # Data and Objective
-The dataset has been imported from the below Kaggle link:
+The dataset has been imported from this Kaggle link:
 https://www.kaggle.com/rmisra/news-category-dataset
 
 The json data 'News_Category_Dataset_v2.json' can be downloaded from the above link and placed in 'downldata' folder in the working directory
