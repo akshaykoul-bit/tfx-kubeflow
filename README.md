@@ -2,7 +2,7 @@
 
 The dataset has been downloaded from this Kaggle link - https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
-TL;DR - I am trying to classify chest xray images into 2 categories i.e. NORMAL and PNEUMONIA using CNN - Convolution neural networks
+TL;DR - I am trying to classify chest xray images into 2 categories i.e. NORMAL and PNEUMONIA using CNN - Convolution Neural Network
 
 ## Pipeline Flow (Local Deployment)
 
