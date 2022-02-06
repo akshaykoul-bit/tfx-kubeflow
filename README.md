@@ -1,6 +1,6 @@
-## Multi-task recommender model using tensorflow recommenders
+## Multi-task recommender model using tensorflow recommenders and Kubeflow
 
-This is an implementation of a two tower recommender system (joint model) with both the stages ie. Retrieval and Ranking using kubeflow pipeline. (As per Tensorflow recommenders official documentation)
+This is an implementation of a two tower recommender system (joint model) with both the stages ie. Retrieval and Ranking using kubeflow. (As per Tensorflow recommenders official documentation)
 
 The retrieval stage is responsible for selecting an initial set of hundreds of candidates from all possible candidates. The ranking stage takes the outputs of the retrieval model and fine-tunes them to select the best possible handful of recommendations.
 
